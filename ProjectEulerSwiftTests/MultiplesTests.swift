@@ -11,11 +11,17 @@ import XCTest
 
 class MultiplesTests: XCTestCase {
     
-    func testGetMultplesOf5() {
+    func testGetMultplesOf3() {
         let expectedArray : [Int] = [3, 6, 9, 12, 15, 18]
         let testObject = Multiples(multiple: 3)
         let actualArray = testObject.getSequence(20)
         XCTAssertTrue(expectedArray == actualArray, "Arrays are not equal!")
-        
+    }
+    
+    func testGetMultiplesOf5() {
+        let expectedArray : [Int] = [5, 10, 15, 20]
+        let testObject = Multiples(multiple: 5)
+        let actualArray = testObject.getSequence(20)
+        XCTAssertTrue(expectedArray == actualArray, "Arrays are not equal!")
     }
 }

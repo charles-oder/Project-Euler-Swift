@@ -18,7 +18,7 @@ public class Multiples {
     
     func getSequence(max: Int) -> [Int] {
         var list: [Int] = [];
-        for ( var i = self.multiple; i < max; i += self.multiple){
+        for ( var i = self.multiple; i <= max; i += self.multiple){
             list.append(i)
         }
         return list
