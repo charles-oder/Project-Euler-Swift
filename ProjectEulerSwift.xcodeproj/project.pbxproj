@@ -13,6 +13,9 @@
 		E12661811ACDD3D1009DF56D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E12661801ACDD3D1009DF56D /* Images.xcassets */; };
 		E12661841ACDD3D1009DF56D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E12661821ACDD3D1009DF56D /* LaunchScreen.xib */; };
 		E12661901ACDD3D1009DF56D /* ProjectEulerSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E126618F1ACDD3D1009DF56D /* ProjectEulerSwiftTests.swift */; };
+		E126619F1ACE0964009DF56D /* Multiples.swift in Sources */ = {isa = PBXBuildFile; fileRef = E126619E1ACE0964009DF56D /* Multiples.swift */; };
+		E12661A01ACE0964009DF56D /* Multiples.swift in Sources */ = {isa = PBXBuildFile; fileRef = E126619E1ACE0964009DF56D /* Multiples.swift */; };
+		E12661A21ACE0977009DF56D /* MultiplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12661A11ACE0977009DF56D /* MultiplesTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 		E12661891ACDD3D1009DF56D /* ProjectEulerSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectEulerSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E126618E1ACDD3D1009DF56D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E126618F1ACDD3D1009DF56D /* ProjectEulerSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectEulerSwiftTests.swift; sourceTree = "<group>"; };
+		E126619E1ACE0964009DF56D /* Multiples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Multiples.swift; sourceTree = "<group>"; };
+		E12661A11ACE0977009DF56D /* MultiplesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplesTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +85,7 @@
 				E12661791ACDD3D1009DF56D /* AppDelegate.swift */,
 				E126617B1ACDD3D1009DF56D /* ViewController.swift */,
 				E126617D1ACDD3D1009DF56D /* Main.storyboard */,
+				E126619E1ACE0964009DF56D /* Multiples.swift */,
 				E12661801ACDD3D1009DF56D /* Images.xcassets */,
 				E12661821ACDD3D1009DF56D /* LaunchScreen.xib */,
 				E12661771ACDD3D1009DF56D /* Supporting Files */,
@@ -99,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				E126618F1ACDD3D1009DF56D /* ProjectEulerSwiftTests.swift */,
+				E12661A11ACE0977009DF56D /* MultiplesTests.swift */,
 				E126618D1ACDD3D1009DF56D /* Supporting Files */,
 			);
 			path = ProjectEulerSwiftTests;
@@ -212,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E126619F1ACE0964009DF56D /* Multiples.swift in Sources */,
 				E126617C1ACDD3D1009DF56D /* ViewController.swift in Sources */,
 				E126617A1ACDD3D1009DF56D /* AppDelegate.swift in Sources */,
 			);
@@ -221,7 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E12661A21ACE0977009DF56D /* MultiplesTests.swift in Sources */,
 				E12661901ACDD3D1009DF56D /* ProjectEulerSwiftTests.swift in Sources */,
+				E12661A01ACE0964009DF56D /* Multiples.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +415,7 @@
 				E12661951ACDD3D1009DF56D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E12661961ACDD3D1009DF56D /* Build configuration list for PBXNativeTarget "ProjectEulerSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +424,7 @@
 				E12661981ACDD3D1009DF56D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
