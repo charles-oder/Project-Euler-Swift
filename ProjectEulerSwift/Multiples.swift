@@ -16,6 +16,10 @@ public class Multiples {
         self.multiple = multiple
     }
     
+    class func mergeArrays(left: [Int], right: [Int]) -> [Int] {
+        return left + right
+    }
+    
     func getSequence(max: Int) -> [Int] {
         var list: [Int] = [];
         for ( var i = self.multiple; i <= max; i += self.multiple){

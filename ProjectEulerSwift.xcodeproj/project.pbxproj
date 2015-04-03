@@ -16,6 +16,9 @@
 		E126619F1ACE0964009DF56D /* Multiples.swift in Sources */ = {isa = PBXBuildFile; fileRef = E126619E1ACE0964009DF56D /* Multiples.swift */; };
 		E12661A01ACE0964009DF56D /* Multiples.swift in Sources */ = {isa = PBXBuildFile; fileRef = E126619E1ACE0964009DF56D /* Multiples.swift */; };
 		E12661A21ACE0977009DF56D /* MultiplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12661A11ACE0977009DF56D /* MultiplesTests.swift */; };
+		E12661A91ACE10E4009DF56D /* COSetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12661A81ACE10E4009DF56D /* COSetTests.swift */; };
+		E12661AB1ACE10F4009DF56D /* COSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12661AA1ACE10F4009DF56D /* COSet.swift */; };
+		E12661AC1ACE10F4009DF56D /* COSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12661AA1ACE10F4009DF56D /* COSet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +44,8 @@
 		E126618F1ACDD3D1009DF56D /* ProjectEulerSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectEulerSwiftTests.swift; sourceTree = "<group>"; };
 		E126619E1ACE0964009DF56D /* Multiples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Multiples.swift; sourceTree = "<group>"; };
 		E12661A11ACE0977009DF56D /* MultiplesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplesTests.swift; sourceTree = "<group>"; };
+		E12661A81ACE10E4009DF56D /* COSetTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COSetTests.swift; sourceTree = "<group>"; };
+		E12661AA1ACE10F4009DF56D /* COSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COSet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +94,7 @@
 				E12661801ACDD3D1009DF56D /* Images.xcassets */,
 				E12661821ACDD3D1009DF56D /* LaunchScreen.xib */,
 				E12661771ACDD3D1009DF56D /* Supporting Files */,
+				E12661AA1ACE10F4009DF56D /* COSet.swift */,
 			);
 			path = ProjectEulerSwift;
 			sourceTree = "<group>";
@@ -107,6 +113,7 @@
 				E126618F1ACDD3D1009DF56D /* ProjectEulerSwiftTests.swift */,
 				E12661A11ACE0977009DF56D /* MultiplesTests.swift */,
 				E126618D1ACDD3D1009DF56D /* Supporting Files */,
+				E12661A81ACE10E4009DF56D /* COSetTests.swift */,
 			);
 			path = ProjectEulerSwiftTests;
 			sourceTree = "<group>";
@@ -219,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E12661AB1ACE10F4009DF56D /* COSet.swift in Sources */,
 				E126619F1ACE0964009DF56D /* Multiples.swift in Sources */,
 				E126617C1ACDD3D1009DF56D /* ViewController.swift in Sources */,
 				E126617A1ACDD3D1009DF56D /* AppDelegate.swift in Sources */,
@@ -229,6 +237,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E12661AC1ACE10F4009DF56D /* COSet.swift in Sources */,
+				E12661A91ACE10E4009DF56D /* COSetTests.swift in Sources */,
 				E12661A21ACE0977009DF56D /* MultiplesTests.swift in Sources */,
 				E12661901ACDD3D1009DF56D /* ProjectEulerSwiftTests.swift in Sources */,
 				E12661A01ACE0964009DF56D /* Multiples.swift in Sources */,
