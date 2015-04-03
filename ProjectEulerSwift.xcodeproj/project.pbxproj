@@ -19,6 +19,9 @@
 		E12661A91ACE10E4009DF56D /* COSetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12661A81ACE10E4009DF56D /* COSetTests.swift */; };
 		E12661AB1ACE10F4009DF56D /* COSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12661AA1ACE10F4009DF56D /* COSet.swift */; };
 		E12661AC1ACE10F4009DF56D /* COSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12661AA1ACE10F4009DF56D /* COSet.swift */; };
+		E12661AE1ACE1FB5009DF56D /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12661AD1ACE1FB5009DF56D /* Fibonacci.swift */; };
+		E12661AF1ACE1FB8009DF56D /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12661AD1ACE1FB5009DF56D /* Fibonacci.swift */; };
+		E12661B11ACE1FC4009DF56D /* FibonacciTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12661B01ACE1FC4009DF56D /* FibonacciTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,8 @@
 		E12661A11ACE0977009DF56D /* MultiplesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplesTests.swift; sourceTree = "<group>"; };
 		E12661A81ACE10E4009DF56D /* COSetTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COSetTests.swift; sourceTree = "<group>"; };
 		E12661AA1ACE10F4009DF56D /* COSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COSet.swift; sourceTree = "<group>"; };
+		E12661AD1ACE1FB5009DF56D /* Fibonacci.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
+		E12661B01ACE1FC4009DF56D /* FibonacciTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FibonacciTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +100,7 @@
 				E12661821ACDD3D1009DF56D /* LaunchScreen.xib */,
 				E12661771ACDD3D1009DF56D /* Supporting Files */,
 				E12661AA1ACE10F4009DF56D /* COSet.swift */,
+				E12661AD1ACE1FB5009DF56D /* Fibonacci.swift */,
 			);
 			path = ProjectEulerSwift;
 			sourceTree = "<group>";
@@ -114,6 +120,7 @@
 				E12661A11ACE0977009DF56D /* MultiplesTests.swift */,
 				E126618D1ACDD3D1009DF56D /* Supporting Files */,
 				E12661A81ACE10E4009DF56D /* COSetTests.swift */,
+				E12661B01ACE1FC4009DF56D /* FibonacciTests.swift */,
 			);
 			path = ProjectEulerSwiftTests;
 			sourceTree = "<group>";
@@ -226,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E12661AE1ACE1FB5009DF56D /* Fibonacci.swift in Sources */,
 				E12661AB1ACE10F4009DF56D /* COSet.swift in Sources */,
 				E126619F1ACE0964009DF56D /* Multiples.swift in Sources */,
 				E126617C1ACDD3D1009DF56D /* ViewController.swift in Sources */,
@@ -239,6 +247,8 @@
 			files = (
 				E12661AC1ACE10F4009DF56D /* COSet.swift in Sources */,
 				E12661A91ACE10E4009DF56D /* COSetTests.swift in Sources */,
+				E12661B11ACE1FC4009DF56D /* FibonacciTests.swift in Sources */,
+				E12661AF1ACE1FB8009DF56D /* Fibonacci.swift in Sources */,
 				E12661A21ACE0977009DF56D /* MultiplesTests.swift in Sources */,
 				E12661901ACDD3D1009DF56D /* ProjectEulerSwiftTests.swift in Sources */,
 				E12661A01ACE0964009DF56D /* Multiples.swift in Sources */,
