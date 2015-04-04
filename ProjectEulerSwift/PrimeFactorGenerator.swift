@@ -23,7 +23,7 @@ class PrimeFactorGenerator {
                 return false;
             }
         }
-        return true;
+        return (value != 1);
     }
 
     private class func getValueRoot(value: Int64) -> Int64 {
