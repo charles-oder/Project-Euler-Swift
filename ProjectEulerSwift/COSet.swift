@@ -42,5 +42,12 @@ public class COSet<T: Comparable> {
         return values
     }
     
-
+    public func contains(value:T) -> Bool {
+        for val in values {
+            if val == value {
+                return true;
+            }
+        }
+        return false
+    }
 }

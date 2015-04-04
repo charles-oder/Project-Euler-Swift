@@ -51,4 +51,12 @@ class COSetTest: XCTestCase {
         XCTAssertEqual(expectedArray, set.toArray())
     }
 
+    func testContains() {
+        var array = [1, 2, 3, 4]
+        var set = COSet<Int>()
+        set.add(array)
+        XCTAssert(set.contains(4))
+        XCTAssertFalse(set.contains(5))
+    }
+
 }

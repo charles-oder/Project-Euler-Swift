@@ -21,4 +21,29 @@ class PrimeFactorGeneratorTests: XCTestCase {
         XCTAssertFalse(PrimeFactorGenerator.isPrime(50))
         XCTAssertFalse(PrimeFactorGenerator.isPrime(100))
     }
+
+    func testGetPrimeFactorListOfPerfectSquare() {
+        var testValue: Int64 = 841
+        var expectedList: [Int64] = [29]
+        var generator = PrimeFactorGenerator(value: testValue)
+
+        XCTAssertEqual( expectedList, generator.getPrimeFactors() )
+    }
+
+    func testGetPrimeFactorListOfProductOfPrimes() {
+        var testValue: Int64 = 55
+        var expectedList: [Int64] = [ 5, 11 ]
+        var generator = PrimeFactorGenerator(value: testValue)
+
+        XCTAssertEqual( expectedList, generator.getPrimeFactors() )
+    }
+
+    func testGetPrimeFactorList() {
+        var testValue: Int64 = 13195
+        var expectedList: [Int64] = [ 5, 7, 13, 29 ]
+        var generator = PrimeFactorGenerator(value: testValue)
+
+        XCTAssertEqual( expectedList, generator.getPrimeFactors() )
+    }
+    
 }
