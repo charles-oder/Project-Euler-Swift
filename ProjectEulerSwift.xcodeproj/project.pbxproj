@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		467E114F9FB5B9B50963B190 /* PrimeFactorGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E178C4CEC01A626B92AE2 /* PrimeFactorGenerator.swift */; };
+		467E1AA85E2ACB9B85DD7197 /* PrimeFactorGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E130CBFA28D84F0753F96 /* PrimeFactorGeneratorTests.swift */; };
+		467E1E86D3A3022CCBA482F7 /* PrimeFactorGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E178C4CEC01A626B92AE2 /* PrimeFactorGenerator.swift */; };
 		E126617A1ACDD3D1009DF56D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12661791ACDD3D1009DF56D /* AppDelegate.swift */; };
 		E126617C1ACDD3D1009DF56D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E126617B1ACDD3D1009DF56D /* ViewController.swift */; };
 		E126617F1ACDD3D1009DF56D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E126617D1ACDD3D1009DF56D /* Main.storyboard */; };
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		467E130CBFA28D84F0753F96 /* PrimeFactorGeneratorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimeFactorGeneratorTests.swift; sourceTree = "<group>"; };
+		467E178C4CEC01A626B92AE2 /* PrimeFactorGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimeFactorGenerator.swift; sourceTree = "<group>"; };
 		E12661741ACDD3D1009DF56D /* ProjectEulerSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectEulerSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E12661781ACDD3D1009DF56D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E12661791ACDD3D1009DF56D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +106,7 @@
 				E12661771ACDD3D1009DF56D /* Supporting Files */,
 				E12661AA1ACE10F4009DF56D /* COSet.swift */,
 				E12661AD1ACE1FB5009DF56D /* Fibonacci.swift */,
+				467E178C4CEC01A626B92AE2 /* PrimeFactorGenerator.swift */,
 			);
 			path = ProjectEulerSwift;
 			sourceTree = "<group>";
@@ -121,6 +127,7 @@
 				E126618D1ACDD3D1009DF56D /* Supporting Files */,
 				E12661A81ACE10E4009DF56D /* COSetTests.swift */,
 				E12661B01ACE1FC4009DF56D /* FibonacciTests.swift */,
+				467E130CBFA28D84F0753F96 /* PrimeFactorGeneratorTests.swift */,
 			);
 			path = ProjectEulerSwiftTests;
 			sourceTree = "<group>";
@@ -238,6 +245,7 @@
 				E126619F1ACE0964009DF56D /* Multiples.swift in Sources */,
 				E126617C1ACDD3D1009DF56D /* ViewController.swift in Sources */,
 				E126617A1ACDD3D1009DF56D /* AppDelegate.swift in Sources */,
+				467E1E86D3A3022CCBA482F7 /* PrimeFactorGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +260,8 @@
 				E12661A21ACE0977009DF56D /* MultiplesTests.swift in Sources */,
 				E12661901ACDD3D1009DF56D /* ProjectEulerSwiftTests.swift in Sources */,
 				E12661A01ACE0964009DF56D /* Multiples.swift in Sources */,
+				467E114F9FB5B9B50963B190 /* PrimeFactorGenerator.swift in Sources */,
+				467E1AA85E2ACB9B85DD7197 /* PrimeFactorGeneratorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
