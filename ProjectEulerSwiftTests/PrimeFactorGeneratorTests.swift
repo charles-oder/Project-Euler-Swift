@@ -14,4 +14,11 @@ class PrimeFactorGeneratorTests: XCTestCase {
         XCTAssert(PrimeFactorGenerator.isPrime(7))
         XCTAssert(PrimeFactorGenerator.isPrime(11))
     }
+
+    func testIsPrimeForPrimeNonNumber() {
+        XCTAssertFalse(PrimeFactorGenerator.isPrime(4))
+        XCTAssertFalse(PrimeFactorGenerator.isPrime(12))
+        XCTAssertFalse(PrimeFactorGenerator.isPrime(50))
+        XCTAssertFalse(PrimeFactorGenerator.isPrime(100))
+    }
 }
