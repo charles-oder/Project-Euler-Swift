@@ -45,5 +45,13 @@ class PrimeFactorGeneratorTests: XCTestCase {
 
         XCTAssertEqual( expectedList, generator.getPrimeFactors() )
     }
-    
+
+    func testGetLargestPrimeFactor() {
+        var testValue: Int64 = 600851475143
+        var expectedValue: Int64 = 6857
+        var generator = PrimeFactorGenerator(value: testValue)
+
+        XCTAssertEqual( expectedValue, generator.getLargestPrimeFactor() );
+    }
+
 }

@@ -51,5 +51,14 @@ class PrimeFactorGenerator {
         return PrimeFactorGenerator.isPrime( i ) && value % i == 0;
     }
 
+    func getLargestPrimeFactor() -> Int64 {
+        var max: Int64 = 0
+        for val in self.getPrimeFactors() {
+            if val > max {
+                max = val
+            }
+        }
+        return max
+    }
 
 }
