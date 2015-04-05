@@ -18,4 +18,14 @@ class PalindromeTests: XCTestCase {
         
         XCTAssertEqual(expectedList, actualList)
     }
+    
+    func testIsPalindromeOnPalindrome() {
+        let testValue = 9009
+        XCTAssert(Palindrome.isPalindrome(testValue))
+    }
+    
+    func testIsPalindromeOnNonPalindrome() {
+        let testValue = 9019
+        XCTAssertFalse(Palindrome.isPalindrome(testValue))
+    }
 }

@@ -21,4 +21,9 @@ class Palindrome {
         
         return list.reverse()
     }
+    
+    class func isPalindrome(value: Int) -> Bool {
+        let list = CreateDigitList(value)
+        return list == list.reverse()
+    }
 }
