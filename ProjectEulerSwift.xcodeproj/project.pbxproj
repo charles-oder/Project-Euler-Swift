@@ -25,6 +25,9 @@
 		E12661AE1ACE1FB5009DF56D /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12661AD1ACE1FB5009DF56D /* Fibonacci.swift */; };
 		E12661AF1ACE1FB8009DF56D /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12661AD1ACE1FB5009DF56D /* Fibonacci.swift */; };
 		E12661B11ACE1FC4009DF56D /* FibonacciTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12661B01ACE1FC4009DF56D /* FibonacciTests.swift */; };
+		E1BE14031AD17ADD00C6F770 /* Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BE14021AD17ADD00C6F770 /* Palindrome.swift */; };
+		E1BE14041AD17ADD00C6F770 /* Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BE14021AD17ADD00C6F770 /* Palindrome.swift */; };
+		E1BE14071AD17AE700C6F770 /* PalindromeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BE14051AD17AE700C6F770 /* PalindromeTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,8 @@
 		E12661AA1ACE10F4009DF56D /* COSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COSet.swift; sourceTree = "<group>"; };
 		E12661AD1ACE1FB5009DF56D /* Fibonacci.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
 		E12661B01ACE1FC4009DF56D /* FibonacciTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FibonacciTests.swift; sourceTree = "<group>"; };
+		E1BE14021AD17ADD00C6F770 /* Palindrome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Palindrome.swift; sourceTree = "<group>"; };
+		E1BE14051AD17AE700C6F770 /* PalindromeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PalindromeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +112,7 @@
 				E12661AA1ACE10F4009DF56D /* COSet.swift */,
 				E12661AD1ACE1FB5009DF56D /* Fibonacci.swift */,
 				467E178C4CEC01A626B92AE2 /* PrimeFactorGenerator.swift */,
+				E1BE14021AD17ADD00C6F770 /* Palindrome.swift */,
 			);
 			path = ProjectEulerSwift;
 			sourceTree = "<group>";
@@ -128,6 +134,7 @@
 				E12661A81ACE10E4009DF56D /* COSetTests.swift */,
 				E12661B01ACE1FC4009DF56D /* FibonacciTests.swift */,
 				467E130CBFA28D84F0753F96 /* PrimeFactorGeneratorTests.swift */,
+				E1BE14051AD17AE700C6F770 /* PalindromeTests.swift */,
 			);
 			path = ProjectEulerSwiftTests;
 			sourceTree = "<group>";
@@ -242,6 +249,7 @@
 			files = (
 				E12661AE1ACE1FB5009DF56D /* Fibonacci.swift in Sources */,
 				E12661AB1ACE10F4009DF56D /* COSet.swift in Sources */,
+				E1BE14031AD17ADD00C6F770 /* Palindrome.swift in Sources */,
 				E126619F1ACE0964009DF56D /* Multiples.swift in Sources */,
 				E126617C1ACDD3D1009DF56D /* ViewController.swift in Sources */,
 				E126617A1ACDD3D1009DF56D /* AppDelegate.swift in Sources */,
@@ -259,7 +267,9 @@
 				E12661AF1ACE1FB8009DF56D /* Fibonacci.swift in Sources */,
 				E12661A21ACE0977009DF56D /* MultiplesTests.swift in Sources */,
 				E12661901ACDD3D1009DF56D /* ProjectEulerSwiftTests.swift in Sources */,
+				E1BE14041AD17ADD00C6F770 /* Palindrome.swift in Sources */,
 				E12661A01ACE0964009DF56D /* Multiples.swift in Sources */,
+				E1BE14071AD17AE700C6F770 /* PalindromeTests.swift in Sources */,
 				467E114F9FB5B9B50963B190 /* PrimeFactorGenerator.swift in Sources */,
 				467E1AA85E2ACB9B85DD7197 /* PrimeFactorGeneratorTests.swift in Sources */,
 			);
