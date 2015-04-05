@@ -28,4 +28,16 @@ class PalindromeTests: XCTestCase {
         let testValue = 9019
         XCTAssertFalse(Palindrome.isPalindrome(testValue))
     }
+    
+    func testFindLargestPalindromeOfTwoDigitProducts() {
+        let expectedValue = 9009
+        let actualValue = Palindrome.findLargestPalindromeOfProducts(2)
+        XCTAssertEqual(expectedValue, actualValue)
+    }
+    
+    func testFindLargestPalindromeOfThreeDigitProducts() {
+        let expectedValue = 906609
+        let actualValue = Palindrome.findLargestPalindromeOfProducts(3)
+        XCTAssertEqual(expectedValue, actualValue)
+    }
 }
