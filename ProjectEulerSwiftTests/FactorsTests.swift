@@ -23,4 +23,10 @@ class FactorsTests: XCTestCase {
         XCTAssertEqual( expectedValue, actualValue )
     }
     
+    func testGenerateProductOfFactorsOneThroughTwenty(){
+        let expectedValue = 232792560
+        let actualValue = Factors.generateSmallestDividendForSequence(1, sequenceEnd:20)
+        XCTAssertEqual( expectedValue, actualValue )
+    }
+    
 }

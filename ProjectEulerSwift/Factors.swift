@@ -11,17 +11,18 @@ import Foundation
 class Factors {
     
     class func generateSmallestDividendForSequence( sequenceStart: Int, sequenceEnd: Int ) -> Int {
-        var intArray: [Int] = []
-        for ( var i = 0; i < sequenceEnd - sequenceStart; i++ ) {
-            intArray.append(sequenceStart + i);
+        var intArray = NSMutableArray()
+        for ( var i = 0; i <= sequenceEnd - sequenceStart; i++ ) {
+            intArray.addObject(sequenceStart + i);
         }
         return generateSmallestDividend( intArray );
     }
 
     
-    class func generateSmallestDividend(intArray: [Int]) -> Int {
-        var output = 0;
-        for (output = intArray[0]; output < Int.max; output++) {
+    class func generateSmallestDividend(intArray: NSArray) -> Int {
+        var output: Int = 0;
+        var increment = intArray[intArray.count - 1] as Int
+        for (output = increment; output < Int.max; output += increment) {
             if (isDivisibleByAllValues( output, intArray: intArray )) {
                 return output;
             }
@@ -29,9 +30,9 @@ class Factors {
         return 0;
     }
     
-    private class func  isDivisibleByAllValues( dividend: Int, intArray: [Int] ) -> Bool {
+    private class func  isDivisibleByAllValues( dividend: Int, intArray: NSArray ) -> Bool {
         for value in intArray {
-            if ( dividend % value != 0) {
+            if ( dividend % (value as Int) != 0) {
                 return false;
             }
         }
