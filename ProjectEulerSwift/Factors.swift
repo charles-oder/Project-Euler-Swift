@@ -26,7 +26,7 @@ class Factors {
                 return output;
             }
         }
-        return output;
+        return 0;
     }
     
     private class func  isDivisibleByAllValues( dividend: Int, intArray: [Int] ) -> Bool {

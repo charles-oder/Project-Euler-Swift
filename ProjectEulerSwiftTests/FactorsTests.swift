@@ -16,4 +16,11 @@ class FactorsTests: XCTestCase {
         let actualValue = Factors.generateSmallestDividendForSequence(1, sequenceEnd:10)
         XCTAssertEqual( expectedValue, actualValue )
     }
+    
+    func testGenerateProductOfWayTooBigOfNumbers(){
+        let expectedValue = 0
+        let actualValue = Factors.generateSmallestDividendForSequence(Int.max - 10, sequenceEnd:Int.max)
+        XCTAssertEqual( expectedValue, actualValue )
+    }
+    
 }
